@@ -27,3 +27,9 @@ springdoc:
         default-model-rendering: model
     packagesToScan: com.unam.dwb.auth.controller
     pathsToMatch: /**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
