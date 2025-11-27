@@ -1,5 +1,5 @@
 server:
-  port: 8084
+  port: 8081
 
 system:
   hostname: localhost
@@ -8,9 +8,9 @@ spring:
   application:
     name: servicio-autenticacion
   datasource:
-    url: jdbc:mysql://localhost:3306/dwb2025-2_test
-    password: Hola$123., 
-    username: root 
+    url: jdbc:mysql://localhost:3306/dwb2026_1
+    password: root
+    username: root
   jpa:
     open-in-view: false
     show-sql: true
